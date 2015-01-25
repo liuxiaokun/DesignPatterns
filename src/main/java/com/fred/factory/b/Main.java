@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SenderFactory.getMailSender().send("mail content");
-        SenderFactory.getSmsSender().send("sms content");
+        new SenderFactory().getMailSender().send("mail content");
+        new SenderFactory().getSmsSender().send("sms content");
     }
 }

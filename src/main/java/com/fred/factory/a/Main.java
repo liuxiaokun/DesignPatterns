@@ -9,8 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SenderFactory.getSender("Sms").send(" Sms content");
-        SenderFactory.getSender("Mail").send(" Mail content");
-        SenderFactory.getSender("SmSsss").send(" sms content");
+        new SenderFactory().getSender("Sms").send(" Sms content");
+        new SenderFactory().getSender("Mail").send(" Mail content");
+        new SenderFactory().getSender("SmSsss").send(" sms content");
     }
 }

@@ -7,12 +7,12 @@ package com.fred.factory.b;
 
 public class SenderFactory {
 
-    public static Sender getSmsSender() {
+    public Sender getSmsSender() {
 
         return new SmsSender();
     }
 
-    public static Sender getMailSender() {
+    public Sender getMailSender() {
 
         return new MailSender();
     }

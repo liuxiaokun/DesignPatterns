@@ -7,7 +7,7 @@ package com.fred.factory.a;
 
 public class SenderFactory {
 
-    public static Sender getSender(String type) {
+    public Sender getSender(String type) {
         Sender sender = null;
 
         if ("Sms".equals(type)) {
